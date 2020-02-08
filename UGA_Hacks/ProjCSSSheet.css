@@ -1,3 +1,6 @@
+
+/*ProjHome Section*/
+
 #menuDiv{
     width: 35px;
     height: 5px;
@@ -16,12 +19,60 @@
     display:flex;
 }
 
-img{
+#homeImg{
     height:100px;
     width: auto;
     margin-top: 15px;
+    flex-wrap: wrap;
 }
 
+/*BorrowerPg Section*/
+#header{
+    width:100%;
+    background-color: white;
+}
+#exitPop{
+    float: right;
+    width: 35px;
+    height: auto;
+    margin-top: 0%;
+}
+
+#sample{
+    float: left;
+    border: 1px solid black;
+    border-radius: 50%;
+    width:80px;
+    height:auto;
+    margin-top: 15%;
+    margin-left: 60%;
+    margin-right: 1em;
+}
+
+#itemContainer{
+    display: flex;
+    align-content: center;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#itemName{
+    margin-bottom: 0%;
+    flex-basis: wrap;
+    padding-left: 3.2em;
+}
+
+/**/
+
+.table,td{
+    border:1px solid black;
+}
+.table{
+    width:70%;
+    margin-left:15%;
+    margin-top: 30%;
+}
 .jumbotron {
     background-color: #86feff;
     color: #fffc5d;
