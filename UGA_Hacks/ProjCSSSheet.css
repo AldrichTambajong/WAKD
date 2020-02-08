@@ -1,0 +1,49 @@
+#menuDiv{
+    width: 35px;
+    height: 5px;
+    background-color: blue;
+    margin: 6px 0; 
+}
+
+#headerStyle{
+    background-color: aqua;
+    margin-top: 0px;
+}
+
+#homeshopDiv{
+    align-content: center;
+    align-items: center;
+    display:flex;
+}
+
+img{
+    height:100px;
+    width: auto;
+    margin-top: 15px;
+}
+
+.jumbotron {
+    background-color: #86feff;
+    color: #fffc5d;
+    text-align: center;
+    font-style: italic;
+    font-family:serif;
+    font-weight: bold;
+}
+
+.input-group{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.container-fluid{
+    align-content: center;
+    text-align: center;
+}
+
+.navbar{
+    margin-bottom: 0%;
+    text-align: end;
+    font-weight: bold;
+}
+
