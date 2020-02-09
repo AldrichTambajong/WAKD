@@ -153,6 +153,33 @@
     margin:2em;
 }
 
+/*Borrowing List*/
+#borrowingBody{
+    background-color: #86feff;
+}
+
+#borrowTable{
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20%;
+    width:80%;
+    height: auto;
+}
+
+#borrowItemTd{
+    width:65%;
+}
+
+#header{
+    width:70%;
+    background-color: bisque;  /*Doesn't have to be this color, just wanted to picture how it would look */
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+        
+}
+
 /**/
 
 .table,td,tr{
