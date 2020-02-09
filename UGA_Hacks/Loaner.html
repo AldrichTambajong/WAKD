@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="ProjCSSSheet.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class = "jumbotron" id="header">
+            <img id="exitPop" alt="Exit image" src="SampPngs/ExtPopUp.png">
+        </div>
+        
+        <div id = "itemContainer">
+            <div>
+                <img id="sample" alt="Sample Image" href="">
+            </div>
+            <div>
+                <p id="itemName"><b>Name of Item</b></p>
+            </div>
+        </div>
+        
+        <div>
+            <table class="table dropdown">
+                <tr>
+                    <td>Catergory:</td>
+                    <td><input type="Category" class="form-control" placeholder="Enter category" name="Category"></td>
+                </tr>
+                <tr>
+                    <td>Value:</td>
+                    <td id="valueTd">$<input type="Value" class="form-control" placeholder="Enter value" name="value" id="valueInput"></td>
+                </tr>
+                <tr>
+                    <td>Rate</td>
+                    <td id="valueTd">$<input type="Rate" class="form-control" placeholder="Enter value" name="value" id="rateInput"> <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">/..<span class="caret"></span></button>
+                    <ul class ="dropdown-menu" id="buttonDim">
+                        <li><button class="btn">/hour</button></li>
+                        <li><button class="btn">/day</button></li>   
+                        <li><button class="btn">/week</button></li>   
+                    </ul></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

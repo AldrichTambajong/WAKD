@@ -63,9 +63,31 @@
     padding-left: 3.2em;
 }
 
+/*Loaner Section*/
+#valueTd{
+    text-align:end;
+    font-size: 20pt;
+    display: flex;
+}
+
+#valueInput{
+    width:90%; 
+    float:right;
+}
+
+#rateInput{
+    width:60%; 
+    float:right;
+}
+
+#buttonDim{
+    margin-top: 0%;
+    margin-left: 40%;
+    text-align: end
+}
 /**/
 
-.table,td{
+.table,td,tr{
     border:1px solid black;
 }
 .table{
