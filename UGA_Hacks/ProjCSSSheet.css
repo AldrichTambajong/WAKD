@@ -85,6 +85,36 @@
     margin-left: 40%;
     text-align: end
 }
+
+/*Profile*/
+#profileDiv{
+    text-align: center;
+    background-color: #86feff;
+}
+
+#profilePic{
+    border:1px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: auto; 
+    text-align: center; 
+}
+
+#profileName{
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#break{
+    border: 1px solid #86feff;
+}
+
+#itemsLi{
+    text-align: center;
+    list-style-type: none;
+}
+
 /**/
 
 .table,td,tr{
